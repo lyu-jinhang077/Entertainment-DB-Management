@@ -4,6 +4,8 @@ Entertainment database contains large amount of real data and reference data in 
 
 It can not be read and written at one time. This can be implemented by reading rows one by one and using multi-threading.
 
+![banner](https://https://github.com/TruePai/Entertainment-DB-Management/screenshot/1.png)
+
 ## Run
 
 ```bash
