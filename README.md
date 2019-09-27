@@ -1,6 +1,8 @@
 # Entertainment DB Management
 
-Entertainment database contains large amount of real data and reference data in csv file format.
+Entertainment database contains large amount of real data and reference data in csv file format from different live entertainment sites.
+
+Also it has some reference files for the live data.
 
 It can not be read and written at one time. This can be implemented by reading rows one by one and using multi-threading.
 
@@ -43,5 +45,4 @@ with gzip.open(inputname, 'rt', encoding='UTF8') as readFile:
 thread = threading.Thread(target=thread_function, args=(INPUT_DIR + file, datawriter))
 ```
 
-## License
-[MIT](https://choosealicense.com/licenses/mit/)
+#### Feel free to update me with any issues or directly contact to [truepai@outloook.com](mailto:truepai@outlook.com)
